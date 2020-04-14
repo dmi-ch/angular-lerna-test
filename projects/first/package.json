@@ -1,6 +1,6 @@
 {
   "name": "@solar-lerna/first",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "scripts": {
     "build": "ng build first",
     "postpublish": "rm -rf dist/"

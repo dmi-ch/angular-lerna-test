@@ -1,6 +1,6 @@
 {
   "name": "@solar-lerna/second",
-  "version": "0.2.2",
+  "version": "0.4.0",
   "scripts": {
     "build": "ng build second",
     "postpublish": "rm -rf dist/"
