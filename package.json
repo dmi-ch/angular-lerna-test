@@ -7,7 +7,9 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "bootstrap": "lerna bootstrap",
+    "lerna-init": "lerna init"
   },
   "private": true,
   "dependencies": {
@@ -44,7 +46,7 @@
     "lerna": "^3.16.4",
     "ng-packagr": "^5.4.0",
     "protractor": "~5.4.0",
-    "semantic-release": "^15.13.24",
+    "semantic-release": "^17.0.4",
     "ts-node": "~7.0.0",
     "tsickle": "^0.37.0",
     "tslint": "~5.15.0",
@@ -55,5 +57,7 @@
       "path": "./node_modules/cz-lerna-changelog"
     }
   },
-  "workspaces": ["projects/*"]
+  "workspaces": [
+    "projects/*"
+  ]
 }

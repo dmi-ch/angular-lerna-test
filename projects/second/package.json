@@ -1,5 +1,5 @@
 {
-  "name": "second",
+  "name": "@solar-lerna/second",
   "version": "0.2.2",
   "scripts": {
     "build": "ng build second",
